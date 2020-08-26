@@ -1,0 +1,16 @@
+xi:
+  alpha: [3., 3.]
+  betta: [600., 600.]
+  is_fixed: false
+  value: [230., 280.]
+
+sampler_parameters:
+  num_samples: 20000
+  save_steps: true
+  sample_gamma: true
+
+paths:
+  output_path: ./results
+  saliency_path:  ../../processed_data/saliencies_red_res_shuff.p
+#  data_path:
+

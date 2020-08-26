@@ -1,0 +1,27 @@
+xi:
+  alpha: [3., 3.]
+  betta: [600., 600.]
+  is_fixed: false
+  value: [230., 280.]
+epsilon:
+  alpha: [3., 3.]
+  betta: [80., 80.]
+  is_fixed: false
+  value: [25., 35.]
+rho:
+  a_p: 4
+  b_p: 4
+  value: 0.5
+  is_fixed: false
+
+cov_ratio: 4
+
+sampler_parameters:
+  num_samples: 20000
+  save_steps: true
+  sample_gamma: true
+
+paths:
+  output_path: ./results
+  saliency_path:  ../../processed_data/saliencies_red_res_shuff.p
+#  data_path:

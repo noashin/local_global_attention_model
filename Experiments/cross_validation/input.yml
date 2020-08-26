@@ -1,0 +1,36 @@
+cov_ratio: 4
+epsilon:
+  alpha:
+  - 0.2
+  - 0.2
+  betta:
+  - 25.0
+  - 25.0
+  is_fixed: false
+  value:
+  - 30.0
+  - 50.0
+num_subjects: 35
+paths:
+  fixations_path: ./../../DATA/processed_data/fixs_for_cross_validation.p
+  output_path: ./results
+  saliency_path: ./../../DATA/processed_data/sals_for_cross_validation.p
+rho:
+  a_p: 4
+  b_p: 4
+  is_fixed: false
+sampler_parameters:
+  num_samples: 2
+  sample_gamma: true
+  save_steps: true
+xi:
+  alpha:
+  - 0.5
+  - 0.5
+  betta:
+  - 200.0
+  - 200.0
+  is_fixed: false
+  value:
+  - 250.0
+  - 350.0

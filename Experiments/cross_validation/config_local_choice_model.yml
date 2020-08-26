@@ -1,0 +1,32 @@
+xi:
+  alpha: [.5, .5]
+  betta: [200., 200.]
+  is_fixed: false
+  value: [250., 350.]
+epsilon:
+  alpha: [.2, .2]
+  betta: [25., 25.]
+  is_fixed: false
+  value: [30., 50.]
+s_0:
+  m_p: 0.0009
+  s_p: 0.0000001
+  is_fixed: false
+b:
+  m_p: 3000
+  s_p: 500000
+  is_fixed: false
+
+cov_ratio: 4
+
+sampler_parameters:
+  num_samples: 20000
+  save_steps: true
+  sample_gamma: true
+
+paths:
+  output_path: ./results
+  saliency_path:  ./../../DATA/processed_data/sals_for_cross_validation.p
+  fixations_path: ./../../DATA/processed_data/fixs_for_cross_validation.p
+
+num_subjects: 35
